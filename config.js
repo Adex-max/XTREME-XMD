@@ -5,13 +5,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "XTREME~XMD~Lp5BXDzI#2-MCG6s_vqfR3m4SOQt0jBgFHfWz3yzVFKp9TjL4CXo",
+SESSION_ID: process.env.SESSION_ID || "XTREME~XMD~PloCFAQD#n_4SucIVMRuqeg71qc-QXl8wmzCKXfl_1qBjv6YlF2o",
 // add your Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴇᴇɴ ʏᴏᴜʀ sᴛᴀᴛᴜs ʙʏ xᴛʀᴇᴍᴇ xᴍᴅ👑*",
 // set the auto reply massage on status reply  
